@@ -1,0 +1,54 @@
+@use 'base/variables' as v;
+@use 'base/mixins' as m;
+
+.video {
+    position: relative; //Permite encimar video
+    max-height: 70rem; //Corta el video parte inf.
+    min-height: 50rem;
+    overflow: hidden; //Oculpa la parte inf.
+
+    .overlay {
+        position: absolute; //Permite encimar el overlay
+        // background-color: red;
+        background: rgb(127, 0, 195);
+        background: linear-gradient(270deg, rgba(127, 0, 195, 0.5) 0%, rgba(255, 0, 194, 0.3) 100%);
+        height: 100%; //Toma el 100% de la pantalla (de arriba a abajo)
+        width: 100%; //Toma el 100% de la pantalla (de lado a lado)
+
+        // Alinear texto 
+        display: flex; //Acceso a alinear con Flexbox verticalmente
+        flex-direction: column; //Acceso a alinear con Flexbox verticalmente
+        justify-content: center; //Alinea centralmente (h2 y p)
+    }
+
+    video {
+        // width: 100%; //El video toma el 100% de pantalla
+        width: auto; //El video toma el 100% de pantalla
+        display: block; //Para que tome todo el espacio hacia abajo
+
+        @include m.desktop {
+            width: 100%; //El video toma el 100% de pantalla
+        }
+    }
+}
+
+.contenido-video {
+    //La etiqueta <video> se interpone sobre el texto
+    z-index: 10; //Con esto se evita y ya se puede seleccionar el texto del video
+
+    h2 {
+        color: v.$blanco;
+        font-size: 7rem;
+        margin: 0;
+    }
+
+    p {
+        background-color: v.$rosa; //Por default toma todo el anclo disponible
+        display: inline-block; //Toma el espacio que requiere
+        padding: 1rem 2rem;
+        color: v.$blanco;
+        font-weight: 700;
+        font-size: 2.4rem;
+        margin: 0;
+    }
+}

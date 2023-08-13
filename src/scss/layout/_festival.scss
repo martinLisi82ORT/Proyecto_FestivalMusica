@@ -1,0 +1,34 @@
+@use 'base/variables' as v;
+@use 'base/mixins' as m;
+
+.sobre-festival {
+    padding: 5rem 0; //Distancia arriba/abajo e izq/der
+
+    // display: grid;
+    // grid-template-columns: repeat(2, 1fr); //Crea dos columnas
+    // column-gap: 5rem;
+    @include m.tablet {
+        @include m.grid(2, 5rem); //Crea el grid con la cantidad de columnas y el espaciado que le pasemos
+    }
+}
+
+.contenido-festival {
+    //Alinea el texto
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 5rem; //Separacion de la img y el texto
+
+    @include m.tablet {
+        margin-top: 0; //Separacion de la img y el texto
+    }
+
+    h2 {
+        margin-bottom: 2rem;
+    }
+
+    .fecha {
+        color: v.$rosa;
+        font-weight: 700;
+    }
+}

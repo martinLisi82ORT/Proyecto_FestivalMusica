@@ -1,0 +1,16 @@
+// version vieja
+//@import 'base/variables'; // importa archivos de otros lugares
+//@import 'contenido/contenido';
+
+// version nueva
+@use 'base';
+// @use 'ul';
+// @use 'contenido';
+// body{
+//     background-color: $rojo;
+// }
+@use 'layout';
+
+
+
+

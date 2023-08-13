@@ -1,0 +1,69 @@
+@use 'base/variables' as v;
+@use 'base/mixins' as m;
+
+.galeria {
+    padding: 5rem 0;
+
+    h3 {
+        text-align: center;
+    }
+}
+
+.galeria-imagenes {
+    @include m.resetear-lista;
+    @include m.grid(2, 2rem);
+
+    @include m.telefono {
+        @include m.grid(3, 2rem);
+    }
+
+    @include m.tablet {
+        @include m.grid(4, 2rem);
+    }
+
+    @include m.desktop {
+        @include m.grid(6, 2rem);
+    }
+}
+
+// Estilo de imagen seleccionada:
+.overlay {
+    //Posiciona de forma fija
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+    //Toma toda la pantalla:
+    width: 100%;
+    height: 100%;
+
+    //Centra la imagen:
+    display: grid;
+    place-items: center;
+    //Oscurecer el fondo:
+    //background-color: rgba(0,0,0,.5); // Oscurece el fondo
+    background-color: rgb(0 0 0 /.5); // Oscurece el fondo (otra manera)
+
+    picture {
+        display: block;
+        max-width: 80rem;
+    }
+}
+
+//Estilo boton X
+.btn-cerrar {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    background-color: v.$blanco;
+    color: v.$negro;
+    display: grid; //Centra X
+    place-items: center; //Centra X
+    font-weight: 700;
+
+    &:hover {
+        cursor: pointer;
+    }
+}
