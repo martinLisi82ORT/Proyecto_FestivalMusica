@@ -7,7 +7,7 @@ Sitio para festival de musica, relizado con GULP y SASS.
 - Tambien un efecto Smooth Scroll en los enlaces de la barra del header para redireccionar a distintas secciones de la pagina de manera mas lenta.
 - Pagina adaptada utilizando distintos "Media Queries" para el tamaño de distintos dispositivos (480px, 768px, 992px y 1200px).
 
-## Pagina:
+### Pagina:
 https://spectacular-zuccutto-40ebfb.netlify.app/
 
 ### Ejemplo Rock and EDM Festival:
