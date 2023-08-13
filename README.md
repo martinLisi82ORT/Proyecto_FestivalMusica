@@ -1,7 +1,7 @@
 # Proyecto_FestivalMusica
 
 Sitio para festival de musica, relizado con GULP y SASS. 
-Se utilizaron distintos Mixins para reutilizar metodos, propiedades y Media Queries en distintas partes del codigo, e implementados a traves de Snippet
+- Se utilizaron distintos Mixins para reutilizar metodos, propiedades y Media Queries en distintas partes del codigo, e implementados a traves de Snippet
 Se implemento un video en HTML5 y una galeria de imagenes con JvaScript, donde al seleccionar alguna foto la misma se muestra en mayor tamaño y calidad.
 Se aligeraron imagenes .JPG y se craron imagenes en formato .WEBP .AVIF utilizando GULP
 Tambien un efecto Smooth Scroll en los enlaces de la barra del header para redireccionar a distintas secciones de la pagina de manera mas lenta.
