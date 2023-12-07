@@ -7,6 +7,17 @@ Sitio para festival de musica, relizado con GULP y SASS.
 - Tambien un efecto Smooth Scroll en los enlaces de la barra del header para redireccionar a distintas secciones de la pagina de manera mas lenta.
 - Pagina adaptada utilizando distintos "Media Queries" para el tamaño de distintos dispositivos (480px, 768px, 992px y 1200px).
 
+
+<div align="center">
+<img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E" />
+
+<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
+
+<img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
+
+<img src="https://img.shields.io/badge/VSCode-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white" />
+</div
+
 ### Pagina:
 https://spectacular-zuccutto-40ebfb.netlify.app/
 
