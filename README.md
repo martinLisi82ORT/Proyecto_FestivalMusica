@@ -8,6 +8,8 @@
 - Pagina adaptada utilizando distintos "Media Queries" para el tamaño de distintos dispositivos (480px, 768px, 992px y 1200px).
 
 ---
+### Herramientas utilizadas:
+JavaScript | VSCode 
 
 <div align="center">
 <img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E" />
