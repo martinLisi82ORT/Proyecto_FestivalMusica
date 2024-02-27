@@ -8,6 +8,11 @@
 - Pagina adaptada utilizando distintos "Media Queries" para el tamaño de distintos dispositivos (480px, 768px, 992px y 1200px).
 
 ---
+
+**Link:** 
+> https://festival-musica-40.netlify.app/
+
+---
 ### Herramientas utilizadas:
 JavaScript | GULP | SASS | VSCode 
 
@@ -28,9 +33,6 @@ JavaScript | GULP | SASS | VSCode
 ---
 ---
 
-**Link:** 
-> https://festival-musica-40.netlify.app/
----
 
 ### Ejemplo Rock and EDM Festival:
 ![Rock and EDM Festival](https://github.com/martinLisi82ORT/Proyecto_FestivalMusica/assets/111402719/9382edf4-b91b-4e76-a8e3-00e5ddf26454)
