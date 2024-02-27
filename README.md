@@ -29,8 +29,7 @@ JavaScript | GULP | SASS | VSCode
 ---
 
 **Link:** 
-> [https://spectacular-zuccutto-40ebfb.netlify.app/](https://festival-musica-40.netlify.app/)
-
+> https://festival-musica-40.netlify.app/
 ---
 
 ### Ejemplo Rock and EDM Festival:
